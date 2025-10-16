@@ -1,0 +1,13 @@
+
+"""Calculadora """
+
+hfc=int(input("¿Cuántas horas pasas en facebook al día? "))
+hig=int(input("¿Cuántas horas pasas en Instagram al día? "))
+htt=int(input("¿Cuántas horas pasas en Twitter al día? "))
+hfb=int(input("¿Cuántas horas pasas en Snapchat al día? "))
+htk=int(input("¿Cuántas horas pasas en TikTok al día? "))
+sum=hfc+hig+htt+hfb+htk
+username=(input("Inserta tu nombre: "))
+print(username,"pasaste un total de:",sum,"horas en tu celular")
+pordia=(sum*100)/24
+print("Pasaste el ",pordia,"% de tu día en el celular")
